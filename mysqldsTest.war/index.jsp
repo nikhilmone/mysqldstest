@@ -1,6 +1,6 @@
 <%@page import="javax.sql.*,java.sql.*,java.util.*,javax.naming.*" %>
 <%
-       String jndiName = "java:jboss/MySqlDSJndi";
+       String jndiName = "java:jboss/datasources/MysqlDS";
        Connection con = null;
 
        try{            
